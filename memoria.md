@@ -46,6 +46,10 @@ Memoria Proyecto
 - Passat per sota del terra tècnic.
 - Separat en canals per seguretat i manteniment.
 
+![Estrcutura base 1](img/base1.png)
+
+![Estrcutura base 2](img/base2.png)
+
 ---
 
 ## Estructuració dels racks
