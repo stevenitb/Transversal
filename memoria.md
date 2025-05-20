@@ -81,6 +81,8 @@ Memoria Proyecto
 - **2 x Cisco Catalyst 9200** (redundància)
 - **VLANs separades:** serveis, gestió, usuaris, backups
 
+![Estrcutura servidors](img/servidors.png)
+
 ---
 
 ## Infraestructura elèctrica
@@ -117,6 +119,8 @@ Memoria Proyecto
 #### Vies d’evacuació
 - Porta d’emergència
 - Senyalització LED
+
+![Estrcutura seguretat](img/seguretat.png)
 
 ---
 
