@@ -56,12 +56,10 @@ Memoria Proyecto
 
 ### Rack 1
 - Servidors
-- Switch core
 
 ### Rack 2
-- Patch panels
-- Switches d’accés
-- Sistemes de comunicació
+- Patch panel
+- Switches 
 
 ---
 
@@ -75,7 +73,7 @@ Memoria Proyecto
   - 2TB SSD
 
 ### Patch Panels
-- **2 x Patch panels** de 24 ports RJ45 Cat6
+- **1 x Patch panels** de 24 ports RJ45 Cat6
 
 ### Switches
 - **2 x Cisco Catalyst 9200** (redundància)
