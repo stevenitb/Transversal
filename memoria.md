@@ -282,19 +282,21 @@ Podem veure la taula d’empleats amb:
 - Telèfon
 - codi_departament
 - codi_grup (referència al departament i nivell assignat)
-
+![](img/img4.png)
 ---
 
 ### Creació d'usuaris
 
 Hem de crear l’usuari amb l’identificador, en aquest cas el seu DNI.
 
+![](img/img4.png)
 ---
 
 ### Assignació de permisos
 
 Afegim els permisos a cada usuari segons els permisos que tenen a l’empresa i la seva importància.
 
+![](img/img6.png)
 ---
 
 ### Definició dels grups professionals
