@@ -216,7 +216,7 @@ Primer hem creat la base de dades amb nom **innovate**.
 
 Seguidament, hem creat les taules de cada un dels punts que demanen com són:
 
-![](
+![](img/img1.png)
 
 - **empleat**: per emmagatzemar les dades personals i laborals de cada treballador.
 - **departament**: per identificar i gestionar les diferents àrees de l’empresa.
@@ -228,13 +228,14 @@ Seguidament, hem creat les taules de cada un dels punts que demanen com són:
 
 #### Empleat (DNI, nom, cognoms, adreça, telèfon, codi_departament, codi_grup)  
 Aquesta taula conté tota la informació necessària dels treballadors. El camp DNI és clau primària, mentre que codi_departament i codi_grup són claus foranes.
-
+![](img/img3.png)
 #### Departament (codi, nom, telefon)  
 Es defineixen vuit departaments diferents per cobrir totes les àrees claus de l’empresa. Això permet tenir una assignació clara per a cada empleat.
 
 #### Grup_nivell (codi_grup, salari_total, periode_prova, dies_vacances)  
 Aquesta taula s'ha creat per adaptar-nos al conveni del sector de consultoria i TI. Cada empleat té assignat un grup-nivell amb condicions específiques.
 
+![](img/img2.png)
 ---
 
 ### Usuaris
