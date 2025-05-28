@@ -216,6 +216,8 @@ Primer hem creat la base de dades amb nom **innovate**.
 
 Seguidament, hem creat les taules de cada un dels punts que demanen com són:
 
+![](
+
 - **empleat**: per emmagatzemar les dades personals i laborals de cada treballador.
 - **departament**: per identificar i gestionar les diferents àrees de l’empresa.
 - **grup_nivell**: conté la classificació professional segons el conveni del sector (grup i nivell), així com salaris, període de prova i dies de vacances.
