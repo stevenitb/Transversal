@@ -380,6 +380,8 @@ Persones amb el perfil professional adequat que fan tasques administratives, ope
 - Grup E: Tres mesos  
 
 **Vacances:** 23 dies laborables
+
+
 ![](img/salaris.png)
 ---
 
