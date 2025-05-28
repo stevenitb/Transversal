@@ -1,5 +1,7 @@
 # Memoria Proyecto
 
+# Proposta CPD
+
 ## Ubicació física
 Situació física de la sala a l’edifici.  
 La sala CPD s’ubicarà a la planta baixa, en una zona central sense finestres visibles des de l’exterior, a prop del quadre elèctric i de l’entrada tècnica per facilitar el manteniment.
@@ -19,7 +21,7 @@ Passat per sota de terra tècnic, separat en canals.
 ## Terra tècnic i sostre tècnic.
 Terra elevat de 30 cm i sostre tècnic de 50 cm per facilitar ventilació i cablejat.
 
-## Planells, dibuixos, diagrames dels elements anteriorment citats.
+![](img/base1.png)
 
 ---
 
@@ -123,7 +125,7 @@ RAID 5 en servidors i NAS per redundància i tolerància a errors.
 
 ---
 
-## Implementació del CPD al núvol AWS amb els serveis utilitzats (mínim de 4 - els serveis d'àudio, vídeo i bases de dades es valoren en els altres blocs).
+# Implementació del CPD al núvol AWS amb els serveis utilitzats
 
 Investigar i comparar eficiència energètica amb altres proveïdors del núvol. Com els diferents proveïdors ofereixen solucions de CPD administrats per aquestes empreses i com donen cobertura als requisits exposats anteriorment.
 
@@ -207,7 +209,7 @@ Configurem el fitxer del servei:
 
 ---
 
-# Definició de taules (personal, servidors, incidències, etc)
+# Definició de taules
 
 Primer hem creat la base de dades amb nom **innovate**.
 
