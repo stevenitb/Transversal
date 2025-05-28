@@ -228,7 +228,9 @@ Seguidament, hem creat les taules de cada un dels punts que demanen com són:
 
 #### Empleat (DNI, nom, cognoms, adreça, telèfon, codi_departament, codi_grup)  
 Aquesta taula conté tota la informació necessària dels treballadors. El camp DNI és clau primària, mentre que codi_departament i codi_grup són claus foranes.
+
 ![](img/img3.png)
+
 #### Departament (codi, nom, telefon)  
 Es defineixen vuit departaments diferents per cobrir totes les àrees claus de l’empresa. Això permet tenir una assignació clara per a cada empleat.
 
