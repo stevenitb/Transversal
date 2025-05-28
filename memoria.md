@@ -3,8 +3,8 @@
 ## Proposta CPD
 
 ### Ubicació física
-Situació física de la sala a l’edifici.  
-La sala CPD s’ubicarà a la planta baixa, en una zona central sense finestres visibles des de l’exterior, a prop del quadre elèctric i de l’entrada tècnica per facilitar el manteniment.
+- Situació física de la sala a l’edifici.  
+- La sala CPD s’ubicarà a la planta baixa, en una zona central sense finestres visibles des de l’exterior, a prop del quadre elèctric i de l’entrada tècnica per facilitar el manteniment.
 
 ### Sistemes de climatització (aire condicionat). Nivells de temperatura, humitat i neteja de l’aire.
 - Sistemes redundants d’aire condicionat tipus In-Row.  
@@ -13,15 +13,18 @@ La sala CPD s’ubicarà a la planta baixa, en una zona central sense finestres 
 - Filtratge de partícules i neteja regular de pols.
 
 ## Mesures per dificultar la identificació de la sala.
-Porta sense rètols, accés exclusiu via dades biomètrics i targeta d’identificació. 
+- Porta sense rètols.
+- ccés exclusiu via dades biomètrics i targeta d’identificació. 
 
 ### Distribució i gestió del cablejat.
-Passat per sota de terra tècnic, separat en canals.
+- Passat per sota de terra tècnic, separat en canals.
 
 ### Terra tècnic i sostre tècnic.
-Terra elevat de 30 cm i sostre tècnic de 50 cm per facilitar ventilació i cablejat.
+- Terra elevat de 30 cm i sostre tècnic de 50 cm per facilitar ventilació i cablejat.
 
 ![](img/base1.png)
+
+![](img/base2.png)
 
 ---
 
@@ -31,16 +34,16 @@ Terra elevat de 30 cm i sostre tècnic de 50 cm per facilitar ventilació i 
 
 ### Infraestructura IT:
 #### Servidors: Número i tipus de model.
-3 x Dell PowerEdge R750 (2U, 2 x Intel Xeon Silver, 128GB RAM, 2TB SSD).
+- 3 x Dell PowerEdge R750 (2U, 2 x Intel Xeon Silver, 128GB RAM, 2TB SSD).
 
 #### Patch panels.
-1 x patch panels de 24 ports RJ45 Cat6.
+- 1 x patch panels de 24 ports RJ45 Cat6.
 
 #### Switches.
-2 x Cisco Catalyst 9200 (redundància).  
-VLANs separades per serveis, gestió, usuaris i backups.
+- 2 x Cisco Catalyst 9200 (redundància).  
+- VLANs separades per serveis, gestió, usuaris i backups.
 
-### Planells i diagrames de com estan distribuïts els racks amb els servidors, patch panels i switches.
+![](img/servidors.png)
 
 ---
 
@@ -63,15 +66,15 @@ VLANs separades per serveis, gestió, usuaris i backups.
 - Porta amb targeta, codi i registre biomètric (doble factor).
 
 #### Videovigilància.
-3 càmeres IP 4K
+- 3 càmeres IP 4K
 
 #### Sistemes prevenció, detecció i d’extinció d’incendis.
-Sensors de fum i gas, sistema d’extinció per gas inert.
+- Sensors de fum i gas, sistema d’extinció per gas inert.
 
 #### Vies d’evacuació.
-Porta d’emergència i senyalització LED.
+- Porta d’emergència i senyalització LED.
 
-#### Diagrames, planells i fotografies de tota la seguretat física incorporada.
+![](img/seguretat.png)
 
 ---
 
@@ -80,17 +83,17 @@ Porta d’emergència i senyalització LED.
 - Mitjançant directoris (LDAP).
 
 #### Firewalls.
-FortiGate o pfSense amb VPN per gestió remota segura.
+- FortiGate o pfSense amb VPN per gestió remota segura.
 
 #### Monitorizació.
-Zabbix o Prometheus per estat, temperatura, tràfic, etc.
+- Zabbix o Prometheus per estat, temperatura, tràfic, etc.
 
 #### Còpies de seguretat/Backups.
-Backup diari incremental i setmanal complet.  
-Còpies locals i al núvol.
+- Backup diari incremental i setmanal complet.  
+- Còpies locals i al núvol.
 
 #### RAIDs.
-RAID 5 en servidors i NAS per redundància i tolerància a errors.
+- RAID 5 en servidors i NAS per redundància i tolerància a errors.
 
 ---
 
@@ -123,10 +126,6 @@ RAID 5 en servidors i NAS per redundància i tolerància a errors.
 #### Equips de baix consum energètic.
 - Switches i servidors amb mode d’estalvi.
 
----
-
-## Implementació del CPD al núvol AWS amb els serveis utilitzats
-
 Investigar i comparar eficiència energètica amb altres proveïdors del núvol. Com els diferents proveïdors ofereixen solucions de CPD administrats per aquestes empreses i com donen cobertura als requisits exposats anteriorment.
 
 | Proveïdor     | Eficiència energètica | Fonts d’energia                  | Certificacions               | Preus                 |
@@ -136,6 +135,8 @@ Investigar i comparar eficiència energètica amb altres proveïdors del núvol.
 | **Google Cloud** | Molt Alta           | 100% renovable                 | LEED, ISO                   | Preus competitius     |
 
 ---
+
+## Implementació del CPD al núvol AWS amb els serveis utilitzats
 
 ### Servidor 1: Streaming d'Àudio
 - Instal·lem el servei icecast2 i el configurem.
