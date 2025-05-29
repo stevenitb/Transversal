@@ -286,7 +286,7 @@ Aquesta taula s'ha creat per adaptar-nos al conveni del sector de consultoria i 
 
 ### Explicació visual i creació de taules
 
-En aquesta imatge podem veure com estem creant les taules i afegint el contingut que hauran de tenir cada una d’elles.
+En aquestes imatgees podem veure com estem creant les taules i afegint el contingut que hauran de tenir cada una d’elles.
 
 Aquí ensenyem les taules que tenim creades i primer, afegim els valors a la taula **grup_nivell**.
 
