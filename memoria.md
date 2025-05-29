@@ -164,17 +164,30 @@ Configurem el fitxer del servei:
 
 #### Panell d'administració del servei:
 
+![](img/panell_admin.png)
+
+
 #### Configuració de targeta d'àudio:
 - Instal·lem la imatge de Linux “linux-image-6.8.0-60-generic”:
 
+  ![](img/instalacio_srvaudio.png)
+
 - Comprovem que s'hagi instal·lat correctament:
+
+  ![](img/comprovacio_instalacio.png)
 
 - Forcem l'ús de la imatge al GRUB mitjançant `/etc/default/grub`
 
+  ![](img/config_etc.png)
+
 - Actualitzem el fitxer i reiniciem l'ordinador.
+
+  ![](img/actu_servei.png)
 
 - Executem el servei i comprovem que la transmissió d'àudio sigui funcional mitjançant la ubicació configurada, el nostre cas  
 `http://”IpPublica”:8000/live.mp3`
+
+![](img/comprovacio_audio.png)
 
 ---
 
