@@ -238,9 +238,7 @@ Configurem el fitxer del servei:
 
 Abans de començar a crear la base de dades vam haver de fer un model **entitat relació** per saber que es el teniem a l'empresa i aixì es com ens va quedar.
 
-
-
-
+![](img/modelentitat.png)
 
 ## Definició de taules
 
