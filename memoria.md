@@ -272,7 +272,7 @@ Configurem el fitxer del servei:
 
 ## Model Entitat Relació
 
-Abans de començar a crear la base de dades vam haver de fer un model **entitat relació** per saber que es el teniem a l'empresa i aixì es com ens va quedar.
+Abans de començar a crear la base de dades vam haver de fer un model **d'entitat relació** per saber que és el que teníem a l'empresa i així és com ens va quedar.
 
 ![](img/modelentitat.png)
 
