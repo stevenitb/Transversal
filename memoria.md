@@ -164,7 +164,7 @@ Configurem el fitxer del servei:
 
 #### Panell d'administració del servei:
 
-![](img/panell_admin.png)
+![](img/panell_adminice.png)
 
 
 #### Configuració de targeta d'àudio:
