@@ -229,25 +229,43 @@ Configurem el fitxer del servei:
 #### DNS(bind9)
 - Instal·lem el servei de DNS i veiem l'estat
 
+  ![](img/instalacio_dns.png)
+
 - Configurem el fitxer db:
+
+  ![](img/config_dns.png)
 
 #### DHCP
 - Comprovem que el servei DHCP sigui funcional
 
+  ![](img/instalacio_dhcp.png)
+
 - Configurem el dhcpd.conf:
+
+  ![](img/codnfi_dhcp.png)
 
 #### FTP (vsftpd)
 - Veiem que el servei ftp sigui exitós:
 
+  ![](img/instalacio_ftp.png)
+
 - Configurem el vostre fitxer vsftpd.conf:
 
+  ![](img/cofngi_ftp.png)
+
 - Proba de connexió al server FTP
+
+  ![](img/prova_ftp.png)
 
 #### Netdata
 - Veiem l'estat de netdata
 
+  ![](img/comprovacio_netdata.png)
+
 - Accedim a la web de monitorització mitjançant el seu URL:  
 `http://IPpublica:19999/`
+
+![](img/accedim_netdata.png)
 
 ---
 
