@@ -140,16 +140,27 @@ Investigar i comparar eficiència energètica amb altres proveïdors del núvol.
 
 ### Servidor 1: Streaming d'Àudio
 - Instal·lem el servei icecast2 i el configurem.
+
+![](img/instalacio.png)
+  
 - Comprovem que la instal·lació ha estat correcta i no hi ha hagut cap error:
+
+  ![](img/estado_icecast.png)
 
 `/etc/icecast2/icecast.xml`  
 Configurem el fitxer del servei:
 
-- Verifiquem que el port 8000 estigui obert per al servei, si no ho activem amb  
+![](img/config_icecast.png)
+
+- Verifiquem que el port 8000 estigui obert per al servei, si no ho activem amb 
 `sudo ufw allow 8000/tcp`
+
+![](img/verificacio_port.png)
 
 - Accedim a l'índex de la web mitjançant la IP pública del server:  
 `http://”IpPublica”:8000/index.html`
+
+![](img/accedim_index.png)
 
 #### Panell d'administració del servei:
 
