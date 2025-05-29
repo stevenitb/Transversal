@@ -234,6 +234,14 @@ Configurem el fitxer del servei:
 
 ---
 
+## Model Entitat Relació
+
+Abans de començar a crear la base de dades vam haver de fer un model **entitat relació** per saber que es el teniem a l'empresa i aixì es com ens va quedar.
+
+
+
+
+
 ## Definició de taules
 
 Primer hem creat la base de dades amb nom **innovate**.
