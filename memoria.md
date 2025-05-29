@@ -242,7 +242,11 @@ Configurem el fitxer del servei:
 
 - Configurem el dhcpd.conf:
 
+
   ![](img/codnfi_dhcp.png)
+
+
+
 
 #### FTP (vsftpd)
 - Veiem que el servei ftp sigui exitós:
