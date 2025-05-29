@@ -242,10 +242,7 @@ Configurem el fitxer del servei:
 
 - Configurem el dhcpd.conf:
 
-
-  ![](img/codnfi_dhcp.png)
-
-
+  ![](img/config_dhcp.png)
 
 
 #### FTP (vsftpd)
@@ -255,7 +252,7 @@ Configurem el fitxer del servei:
 
 - Configurem el vostre fitxer vsftpd.conf:
 
-  ![](img/cofngi_ftp.png)
+  ![](img/config_ftp.png)
 
 - Proba de connexió al server FTP
 
