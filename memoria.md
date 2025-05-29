@@ -199,7 +199,7 @@ Configurem el fitxer del servei:
 ![](img/config_nginx.png)
 
 
-![](img/config2_nignx.png)
+![](img/config2_nginx.png)
 
 
 
