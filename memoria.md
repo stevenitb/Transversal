@@ -194,16 +194,30 @@ Configurem el fitxer del servei:
 ### Servidor 2: Streaming de Vídeo
 - Instal·lem el servei nginx i el configurem:
 
+  ![](img/instalacio_nginx.png)
+
+![](img/config_nginx.png)
+
+![](img/config2_nignx.png)
+
 - Comprovem que la configuració realitzada ha estat reeixida:
+
+  ![](img/comprovacio_confignginx.png)
 
 - Iniciem el servei i emetem un vídeo des del servidor.  
 `ffmpeg -re -i /usr/local/nginx/html/prueba.mp4 -c:v libx264 -c:a aac -f flv rtmp://127.0.0.1:1935/live/test`
 
+![](img/iniciem_srv_nginx.png)
+
 - Comprovem que el servei sigui funcional mitjançant el vostre URL per veure les estadístiques de la transmissió:  
 `http://”IpPublica”:8080/stat`
 
+![](img/comprovacio_grafica.png)
+
 - Ara comprovem que la transmissió sigui exitosa mitjançant el vostre URL per veure la transmissió:  
 `http://”IpPublica”/stream.html`
+
+![](img/video.png)
 
 ---
 
