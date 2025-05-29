@@ -261,7 +261,7 @@ Configurem el fitxer del servei:
 #### Netdata
 - Veiem l'estat de netdata
 
-  ![](img/comprovacio_netdata.png)
+  ![](img/comprovaci_netdata.png)
 
 - Accedim a la web de monitorització mitjançant el seu URL:  
 `http://IPpublica:19999/`
