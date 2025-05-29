@@ -198,7 +198,10 @@ Configurem el fitxer del servei:
 
 ![](img/config_nginx.png)
 
+
 ![](img/config2_nignx.png)
+
+
 
 - Comprovem que la configuració realitzada ha estat reeixida:
 
