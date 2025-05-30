@@ -3,7 +3,8 @@
 ## Proposta CPD
 
 ### Ubicació física
-- Situació física de la sala a l’edifici.  
+- Situació física de la sala a l’edifici.
+- Nort de Virginia, Estats Units.
 - La sala CPD s’ubicarà a la planta baixa, en una zona central sense finestres visibles des de l’exterior, a prop del quadre elèctric i de l’entrada tècnica per facilitar el manteniment.
 
 ### Sistemes de climatització (aire condicionat). Nivells de temperatura, humitat i neteja de l’aire.
